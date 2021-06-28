@@ -34,7 +34,7 @@ def save():
     else:
         is_save=messagebox.askokcancel(title=website,message="Given details are\n" f"Email/Username:{mailid}\n" f"Password:{password}\n" "Is it correct?")
         if is_save:
-            with open("D:\\Learning\\Project Innovative Ideas\\Software Projects\\Completed\\Password generator GUI\\file3.txt","a") as file:
+            with open("File Path","a") as file:
                 file.write(f"\n{website_input.get()} | {mail_input.get()} | {password_input.get()} ")
                 website_input.delete(0,"end")
                 password_input.delete(0,"end")
@@ -44,7 +44,7 @@ window=tkinter.Tk()
 window.title("Password Manager")
 window.config(padx=50,pady=50,bg="white")
 canvas=tkinter.Canvas(width=200,height=200,bg="white",highlightthickness=0)
-lock_image=tkinter.PhotoImage(file="D:\Learning\Project Innovative Ideas\Software Projects\Completed\Password generator GUI\logo.png")
+lock_image=tkinter.PhotoImage(file="Image File Path")
 canvas.create_image(100,100,image=lock_image)
 canvas.grid(column=1,row=0)
 
