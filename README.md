@@ -21,7 +21,7 @@
     </ul>
     <h2>Output Examples</h2>
     <h3>Generator Interface</h3>
-    <img src="generator_interface.png" alt="Generator Interface">
+    <img src="generate_interface.png" alt="Generator Interface">
     <h3>Password File</h3>
     <img src="password_file.png" alt="Password File">
   </body>
