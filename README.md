@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Python Password Generator</title>
   </head>
   <body>
     <h1>Python Password Generator</h1>
